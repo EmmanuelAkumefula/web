@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<Body background ="EmmanuelAkumefula/my-site/Black and Yellow Dark Gamer Survival YouTube Banner.png">
+  <link rel="stylesheet" href="style.css">
+<style>
+
+
+
+
+    /* Style the top navigation bar */
+    .topnav {
+      /* position: fixed; */
+      top: 0;
+      padding: 10px;
+      width:100%;
+      overflow: hidden;
+      background-color: rgb(23, 20, 20);
+     
+    }
+    
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f0eaea;
+      text-align: center;
+      padding: 12px ;
+      text-decoration: none;
+      font-size: 17px;
+      width: 14.7%;
+    }
+    
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: rgb(141, 138, 151);
+      border-radius: 20px;
+    }
+
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+      }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+
+    * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.text span {
+  font-size: 60px;
+  padding: 0 10px;
+  /* text-transform:; */
+  color: #fff;
+  animation: zoomup 2s linear infinite;
+  animation-delay: calc(200ms * var(--i));
+}
+
+@keyframes zoomup {
+  0%,
+  100% {
+    color: #00c2ba;
+    filter: blur(1px);
+    text-shadow: 0 0 10px #00c2ba, 0 0 20px #00c2ba, 0 0 30px #00c2ba,
+      0 0 40px #00c2ba, 0 0 60px #00c2ba, 0 0 80px #00c2ba, 0 0 100px #00c2ba,
+      0 0 120px #00c2ba;
+  }
+
+  5%,
+  95% {
+    filter: blur(0);
+    color: #fff;
+    text-shadow: none;
+  }
+}
+
+#footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  opacity: 0.5;
+}
+
+#footer nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 10px;
+  
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgb(116, 87, 87);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    justify-content: right;
+    align-items: right;
+    
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(38, 36, 36);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+.download-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+
+
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+
+</style>
+<body>
+
+  <div class="topnav">
+
+    <a href="C:\Users\akume\resume.html">Projects<img src="EmmanuelAkumefula/my-site/diagram-project.png"></a>
+    <a href="C:\Users\akume\Tutorme.html">Tutor Me<img src="EmmanuelAkumefula/my-site/book-font (2).png"></a>
+    <a href="C:\Users\akume\About me.html">About Me<img src="EmmanuelAkumefula/my-site/user (8).png"></a>
+    <a href="C:\Users\akume\contact.html" >Contact<img src="EmmanuelAkumefula/my-site/envelope.png"></a>
+    <a href="C:\Users\akume\projects.html" >My Resume <img src="EmmanuelAkumefula/my-site/id-badge.png"></a>
+  </div>
+    
+    <div class="container">
+      <div class="text">
+        <br>
+        <span style="--i:1">HI !! <img src="EmmanuelAkumefula/my-site/smile-beam (1).png"></span>
+        <br>
+        <span style="--i:1">I'm</span>
+        <span style="--i:3"><u><strong>E</strong></u></span>
+        <span style="--i:4"><u><strong>m</strong></u></span>
+        <span style="--i:5"><u><strong>m</strong></u></span>
+        <span style="--i:6"><u><strong>a</strong></u></span>
+        <span style="--i:7"><u><strong>n</strong></u></span>
+        <span style="--i:7"><u><strong>u</strong></u></span>
+        <span style="--i:7"><u><strong>e</strong></u></span>
+        <span style="--i:7"><u><strong>l</strong></u></span>
+    
+
+        <a href="C:\Users\akume\About me.html"><button class="glow-on-hover" type="button">WELCOME</button></a>
+
+      </div>
+    </div>
+
+    <!-- C:\Users\akume\Downloads\smile-beam.png
+    C:\Users\akume\Downloads\smile-beam (1).png -->
+
+    <div id="footer">
+      <p>Copyright © 2022 My Website</p>
+      <nav>
+        <c href="#">About</c>
+        <b href="#">Contact</b>
+        <b href="#">Privacy Policy</b>
+        <br>
+        <p1><a href="https://www.linkedin.com/in/emmanuel-akumefula-429292211/"><img src="EmmanuelAkumefula/my-site/icons8-linkedin-circled-50.png"></a></p1>
+        <p1><a href="https://www.instagram.com/emmz.ace/"><img src="EmmanuelAkumefula/my-site/icons8-instagram-48.png"></a></p1>
+      </nav>
+    </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
